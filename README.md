@@ -1,4 +1,5 @@
-🛍️ #Catálogo de Productos con React + Vite
+## 🛍️ Catálogo de Productos con React + Vite
+
 Este proyecto es un catálogo de productos interactivo creado utilizando React y Vite, con estilos proporcionados por Tailwind CSS y la comunicación con la API de DummyJSON realizada mediante Axios.
 
 🔧 Tecnologías Utilizadas
@@ -19,22 +20,65 @@ Antes de comenzar, asegúrate de tener instalado:
 🟢 Node.js (versión 16 o superior)
 📥 npm o yarn
 
-🚀 Instalación y Configuración
+### EVIDENCIA 1 
 
-🎯 Paso 1: Crear el proyecto con Vite
-bashnpm create vite@latest proyecto-catalogo
-Al ejecutar el comando, selecciona las siguientes opciones:
+#### Instalación y Configuración del Proyecto
 
-📝 Package name: proyecto-catalogo (o el nombre que prefieras)
-🔷 Framework: React
-⚙️ Variant: JavaScript + SWC
+🎯 Paso 1: **Crear el proyecto con Vite**
+
+ ```bash
+> npm create vite@latest 
+◇  Package name:
+│  EV1_Ricos_Sabores
+◇  Select a framework:
+│  React
+◇  Select a variant:
+│  JavaScript + SWC
+└  Done. Now run:
+```
 
 📂 Paso 2: Navegar al directorio del proyecto
-bashcd proyecto-catalogo
+ ```bash
+cd EV1_Ricos_Sabores
+ ```
 
-📦 Paso 3: Instalar las dependencias base
-bashnpm install
+📦 Paso 3: **Instalar las dependencias base**
 
-🎨 Paso 4: Instalar Tailwind CSS
-bashnpm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
+```bash
+npm install
+ ```
+
+🎨 Paso 4: **Instalar Tailwindcss**
+
+ ```bash
+npm install tailwindcss @tailwindcss/vite
+ ```
+
+Paso 5: **Ejecutar  el Proyecto**
+ ```bash
+npm run dev
+ ```
+A continuación se abrirá la aplicación del proyecto en el navegador ej. `http://localhost:5173` 
+
+## Estructura del Proyecto 
+proyecto-catalogo/
+├── 🌍 public/
+│   └── ... (recursos estáticos)
+├── 📂 src/
+│   ├── 🖼️ assets/
+│   │   └── ... (imágenes, logo)
+│   ├── 🧩 components/
+│   │   └── 🏷️ Card.jsx
+│   ├── 🎣 hooks/
+│   │   └── ... (hooks personalizados)
+│   ├── 🔌 services/
+│   │   └── api.js (configuración de Axios y llamadas a la API)
+│   ├── 📱 App.jsx
+│   ├── 🎨 index.css
+│   ├── 🚀 main.jsx
+│   └── ... (otros archivos de la aplicación)
+├── 🏠 index.html
+├── 📋 package.json
+├── 📖 README.md
+├── 🔧 vite.config.js
+└── ... (otros archivos de configuración)

@@ -1,84 +1,20 @@
-## 🛍️ Catálogo de Productos con React + Vite
+### 🛍️ Proyecto Integrado
 
-Este proyecto es un catálogo de productos interactivo creado utilizando React y Vite, con estilos proporcionados por Tailwind CSS y la comunicación con la API de DummyJSON realizada mediante Axios.
 
-🔧 Tecnologías Utilizadas
+| Nombre y Apellido       | Correo Electrónico               | Usuario   GIT                 |
+|-------------------------|----------------------------------|-------------------------------|
+| Raul Moreno             | moreno.r.alberto@gmail.com       | https://github.com/morenoraul |
 
-🔷 React: Biblioteca de JavaScript para construir interfaces de usuario interactivas
 
-⚡ Vite: Herramienta de construcción que proporciona una experiencia de desarrollo extremadamente rápida
+#### Diagnostico Inicial
+Guía de ejercicios resueltos 
 
-🎨 Tailwind CSS: Framework de CSS de utilidad que permite un desarrollo rápido y flexible del diseño
+* #### Evidencia 1
+  ##### React + Vite + Tailwind + Axios
 
-🌐 Axios: Cliente HTTP basado en promesas para realizar peticiones al API de DummyJSON
+  El proyecto se trata una aplicación desarrollada con React que consume la API de DummyJSON para mostrar productos en formato de tarjetas. 
+  La interfaz está diseñada utilizando Tailwind CSS para lograr un estilo moderno y responsivo.
 
-📦 DummyJSON: API REST gratuita para obtener datos de productos de prueba
+* #### Evidencia 2
 
-📋 Requisitos Previos
-Antes de comenzar, asegúrate de tener instalado:
-
-🟢 Node.js (versión 16 o superior)
-📥 npm o yarn
-
-### EVIDENCIA 1 
-
-#### Instalación y Configuración del Proyecto
-
-🎯 Paso 1: **Crear el proyecto con Vite**
-
- ```bash
-> npm create vite@latest 
-◇  Package name:
-│  EV1_Ricos_Sabores
-◇  Select a framework:
-│  React
-◇  Select a variant:
-│  JavaScript + SWC
-└  Done. Now run:
-```
-
-📂 Paso 2: Navegar al directorio del proyecto
- ```bash
-cd EV1_Ricos_Sabores
- ```
-
-📦 Paso 3: **Instalar las dependencias base**
-
-```bash
-npm install
- ```
-
-🎨 Paso 4: **Instalar Tailwindcss**
-
- ```bash
-npm install tailwindcss @tailwindcss/vite
- ```
-
-Paso 5: **Ejecutar  el Proyecto**
- ```bash
-npm run dev
- ```
-A continuación se abrirá la aplicación del proyecto en el navegador ej. `http://localhost:5173` 
-
-## Estructura del Proyecto 
-proyecto-catalogo/
-├── 🌍 public/
-│   └── ... (recursos estáticos)
-├── 📂 src/
-│   ├── 🖼️ assets/
-│   │   └── ... (imágenes, logo)
-│   ├── 🧩 components/
-│   │   └── 🏷️ Card.jsx
-│   ├── 🎣 hooks/
-│   │   └── ... (hooks personalizados)
-│   ├── 🔌 services/
-│   │   └── api.js (configuración de Axios y llamadas a la API)
-│   ├── 📱 App.jsx
-│   ├── 🎨 index.css
-│   ├── 🚀 main.jsx
-│   └── ... (otros archivos de la aplicación)
-├── 🏠 index.html
-├── 📋 package.json
-├── 📖 README.md
-├── 🔧 vite.config.js
-└── ... (otros archivos de configuración)
+  

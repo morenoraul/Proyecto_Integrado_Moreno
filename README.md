@@ -1,11 +1,16 @@
 🛍️ #Catálogo de Productos con React + Vite
 Este proyecto es un catálogo de productos interactivo creado utilizando React y Vite, con estilos proporcionados por Tailwind CSS y la comunicación con la API de DummyJSON realizada mediante Axios.
+
 🔧 Tecnologías Utilizadas
 
 🔷 React: Biblioteca de JavaScript para construir interfaces de usuario interactivas
+
 ⚡ Vite: Herramienta de construcción que proporciona una experiencia de desarrollo extremadamente rápida
+
 🎨 Tailwind CSS: Framework de CSS de utilidad que permite un desarrollo rápido y flexible del diseño
+
 🌐 Axios: Cliente HTTP basado en promesas para realizar peticiones al API de DummyJSON
+
 📦 DummyJSON: API REST gratuita para obtener datos de productos de prueba
 
 📋 Requisitos Previos
